@@ -17,6 +17,4 @@ public interface OrderBook {
     Map<Integer, List<Order>> getBook(Side side);
 
     boolean exists(String orderId);
-
-    void print();
 }
